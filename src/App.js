@@ -13,7 +13,6 @@ import { Home } from "./Component/Home";
 import TeacherCreating from "./TeacherComponent/TeacherCreating";
 import TeacherEditing from "./TeacherComponent/TeacherEditing";
 import TeacherReading from "./TeacherComponent/TeacherReading";
-import { data2 } from "./Component/Teachersdata";
 import TeacherProfile from "./TeacherComponent/TeacherProfile";
 
 function App() {
