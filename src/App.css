@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  font-family: Roboto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.childerns {
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ListIteams {
+  margin-bottom: 20rem;
 }
-
-.App-header {
-  background-color: #282c34;
+.Box {
+  display: flex;
+}
+.Child {
+  width: 100%;
   min-height: 100vh;
+  background-color: rgb(240, 238, 238);
+}
+.CardBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.studentCards:hover {
+  box-shadow: 10px 10px 20px rgb(182, 180, 180),
+    10px 10px 20px rgb(176, 175, 175);
+}
+.studentCards {
+  margin: 5px;
+  width: 14rem;
+  height: fit-content;
+}
+.HomeBox {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 1rem;
+}
+.studenttitle {
+  width: 100%;
+  margin: 1rem;
+}
+.textfield {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  max-width: auto;
+}
+.InputText:hover {
+  color: black;
+}
+.titleheader {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.StudentHomePortal {
+  border: 1px solid black;
   color: white;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./Component/img/pexels-pixabay-267885.jpg");
+  background-size: 100% 100%;
+}
+.profileButton {
+  margin: auto;
+}
+.Createstudentfield {
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.head12 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnhome {
+  width: fit-content;
+  margin: auto;
 }
